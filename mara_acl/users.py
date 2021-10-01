@@ -4,7 +4,6 @@ from email.utils import parseaddr
 
 import flask
 import mara_db.postgresql
-import psycopg2.extensions
 import sqlalchemy.orm
 from mara_acl import config, permissions
 from mara_page import response

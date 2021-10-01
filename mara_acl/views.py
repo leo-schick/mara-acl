@@ -4,7 +4,6 @@ import json
 
 import flask
 import mara_db.postgresql
-import psycopg2.extensions
 from mara_acl import config, keys, permissions, users
 from mara_page import acl, navigation, response, bootstrap
 

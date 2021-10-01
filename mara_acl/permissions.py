@@ -1,8 +1,6 @@
 """Maintenance and querying of permissions"""
 
 import flask
-import psycopg2.extensions
-import psycopg2.extras
 import sqlalchemy.orm
 from sqlalchemy.ext.declarative import declarative_base
 
